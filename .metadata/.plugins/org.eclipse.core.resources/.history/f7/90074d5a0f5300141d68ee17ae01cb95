@@ -1,0 +1,9 @@
+component{
+	public errorBean function init(){
+		variables.errors = [];
+		return this;
+	}
+	public void addError(string message, string field){
+		
+	}
+}

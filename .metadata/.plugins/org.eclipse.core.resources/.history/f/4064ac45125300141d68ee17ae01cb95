@@ -1,0 +1,5 @@
+component persistent = "true"{
+	property name='id' column='blogpostid' fieldtype='id' generator='increment';
+	property name='title' ormtype="next";
+	 
+}

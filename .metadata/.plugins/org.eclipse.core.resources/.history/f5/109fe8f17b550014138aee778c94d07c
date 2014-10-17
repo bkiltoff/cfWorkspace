@@ -1,0 +1,9 @@
+<cfcomponent>
+	<cfscript>
+		component{
+			public section function init(){
+				
+			}
+		}
+	</cfscript>
+</cfcomponent>

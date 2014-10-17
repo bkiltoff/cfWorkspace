@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;learncfinaweek/www/com/entities&apos; to &apos;entity&apos;" description="Rename resource &apos;entities&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="www/com/entities" name="entity" stamp="1413229748591" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;learncfinaweek/www/com/entity/blogpost.cfc&apos; to &apos;blogPost.cfc&apos;" description="Rename resource &apos;blogpost.cfc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="www/com/entity/blogpost.cfc" name="blogPost.cfc" stamp="1413229765628" updateReferences="true"/>
+</session>

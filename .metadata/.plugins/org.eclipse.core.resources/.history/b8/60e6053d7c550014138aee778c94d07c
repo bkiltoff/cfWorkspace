@@ -1,0 +1,10 @@
+component{
+	public section function init(){
+		variables.sectiondescription = "";
+		variables.shelflocation = "";	
+	}
+	
+	public void function setup(){
+		
+	}
+}

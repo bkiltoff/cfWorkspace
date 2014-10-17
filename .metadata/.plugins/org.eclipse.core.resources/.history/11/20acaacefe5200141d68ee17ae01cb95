@@ -1,0 +1,7 @@
+component{
+	this.name = 'learncfinaweek';
+	this.datasource = 'learncfinaweek';
+	this.applicationTimeout = CreateTimEspan(10,0,0,0);
+	this.Sessionmanagement = true;
+	this.sessiontimeout = createTimespan(0,0,30,0)
+}

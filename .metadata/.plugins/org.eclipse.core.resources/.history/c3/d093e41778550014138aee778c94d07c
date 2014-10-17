@@ -1,0 +1,9 @@
+<cfcomponent>
+	<cfscript>
+	public matcher function init(){
+		variables.sectionDescription = "";
+		
+		return this;
+	}
+	</cfscript>
+</cfcomponent>

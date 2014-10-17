@@ -1,0 +1,9 @@
+component persistent='true'{
+	property name='id' column='blogCommentid' fiedltype='id' generator='increment';
+	property name='author' ormtype='string';
+	property name='comment' ormtype='text';
+	property name='createdDateTime' ormtype='timestamp';
+	property name='deleted' ormtype='boolean';
+	
+	
+}
