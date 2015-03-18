@@ -1,6 +1,0 @@
-component{
-	public section function init(){
-		variables.sectiondescription = "";
-		variables.shelflocation = "";	
-	}
-}

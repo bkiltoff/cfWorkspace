@@ -1,7 +1,0 @@
-<h1> Hello </h1>
-
-<cfquery name="rtfReport" datasource="polaris" maxrows="100">
-<!-- this is a copy/paste of the sql query written by jon lellelid	-->
-<!-- that fetches the rtf list for all branches						-->
-	
-</cfquery>

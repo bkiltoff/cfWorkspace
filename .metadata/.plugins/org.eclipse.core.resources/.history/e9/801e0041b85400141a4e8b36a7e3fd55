@@ -1,4 +1,0 @@
-<h1> Hello </h1>
-
-<cfquery name="rtfReport" datasource="polaris" maxrows="100">
-</cfquery>

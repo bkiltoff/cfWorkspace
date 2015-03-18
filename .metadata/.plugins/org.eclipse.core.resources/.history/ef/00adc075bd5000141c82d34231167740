@@ -1,5 +1,0 @@
-<cfif thisTag.executionMode eq "Start">
-
-<cfelse>
-	
-</cfif>
