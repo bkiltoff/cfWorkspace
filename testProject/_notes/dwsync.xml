@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="Application.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942441459201" remote="130711942440000000" Dst="2" />
-<file name="studentHelper.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942443909232" remote="130711942440000000" Dst="2" />
+<file name="Application.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130734339437830147" remote="130734339430000000" Dst="2" />
+<file name="studentHelper.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130729153254429641" remote="130729153250000000" Dst="2" />
 <file name="settings.xml" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942443809235" remote="130711942440000000" Dst="2" />
 <file name="index.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942443469223" remote="130711942440000000" Dst="2" />
 <file name=".project" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942441369280" remote="130711942440000000" Dst="2" />
-<file name="helloWrld.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942443469223" remote="130711942440000000" Dst="2" />
+<file name="helloWrld.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130729152835396483" remote="130729152830000000" Dst="2" />
 <file name="authenticate.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942442679217" remote="130711942440000000" Dst="2" />
 <file name="send.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942443659244" remote="130711942440000000" Dst="2" />
 <file name="custom_author.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942442699219" remote="130711942440000000" Dst="2" />
 <file name="search.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942443569293" remote="130711942440000000" Dst="2" />
 <file name="send_save.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130711942443769308" remote="130711942440000000" Dst="2" />
+<file name="custom_locations.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="128444026570000000" remote="128444026570000000" Dst="2" />
+<file name="custom_equipmenttype.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130313672409018951" remote="130313672400000000" Dst="2" />
+<file name="custom_send_area.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130314465117708868" remote="130314465110000000" Dst="2" />
+<file name="custom_sound_error_input.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130313674085616034" remote="130313674080000000" Dst="2" />
+<file name="getactivedirectoryauthenticatedusername.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="128498489580000000" remote="128498489580000000" Dst="2" />
+<file name="mayaccessobject.cfm" server="C:/ColdFusion11/cfusion/wwwroot/testSite/" local="130313654065953879" remote="130313654060000000" Dst="2" />
 </dwsync>
