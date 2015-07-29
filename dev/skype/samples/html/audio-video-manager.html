@@ -1,0 +1,66 @@
+<div class="audio-video-manager">
+	<h2>Audio/Video</h2>
+	<div class="creds">
+        <div>
+        	<input id="av-to" type="text" placeholder="sip:someone@example.com" value="" />
+            <span class="btn-search">Search</span>
+        </div>
+    </div>
+    <div class="chat-container">
+        <div class="other-buttons" style="margin-top: 10px; margin-bottom: 10px;">
+            <input type="button" id="btn-hold" value="Hold" />
+            <input type="button" id="btn-resume" value="Resume" />
+            <input type="button" id="btn-end" value="End Conversation" />
+        </div>
+    	<div class="conversation-header">
+    		<div class="contact-name"></div>
+    		<div class="status-location">
+    			<span class="presence-status"></span>
+    			<span class="location"></span>
+    		</div>
+    		<div class="av-controls">
+    			<span id="btn-video" class="iconfont videoOn"></span>
+                <span id="btn-audio" class="iconfont callStart"></span>
+                <span id="btn-add-contact" class="iconfont contactAdd"></span>
+    		</div>
+            <div class="add-p-container">
+                <input type="text" id="txt-contact" placeholder="sip:someone@example.com" />
+                <span id="btn-add-participant">Add</span>
+            </div>
+    	</div>
+        <div class="av-container">
+            <div class="av-top">
+                <span class="c-name"></span>
+                <span class="call-status"></span>
+                <span class="iconfont fullscreenOn"></span>
+            </div>
+            <div class=loading>
+                <span class="load-content">
+                    Calling...
+                </span>
+            </div>
+            <div class="render-window" id="render-p-window">
+            </div>
+            <div class="ctr-buttons">
+                <span class="iconfont ctr-button video-on hide-video hide"></span>
+                <span class="iconfont ctr-button video-off show-video hide"></span>
+                <span class="iconfont ctr-button mic-on mute"></span>
+                <span class="iconfont ctr-button mic-off  unmute hide"></span>
+                <span class="iconfont ctr-button hang-up"></span>
+            </div>
+        </div>
+        <div class="chat-box">
+            <div class="message-list">
+            </div>
+            <div class="input-message-box">
+                <input type="text" id="txt-imput-message" />
+                <span class="btn-send-message">Send</span>
+            </div>
+        </div>
+        <div class="video-list">
+            <div id="render-self-window" class="video-window"></div>
+            <div class='video-window add-video-container'></div>
+        </div>
+    </div>
+</div>
+<script src="samples/scripts/audio-video-manager.js">

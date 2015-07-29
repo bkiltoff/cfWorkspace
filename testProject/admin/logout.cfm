@@ -1,3 +1,0 @@
-
-
-<cflocation url="/logout/">

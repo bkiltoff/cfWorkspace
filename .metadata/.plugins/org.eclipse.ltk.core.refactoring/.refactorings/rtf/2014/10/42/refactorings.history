@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;rtf/rtf/index.cfm&apos; to &apos;index.html&apos;" description="Rename resource &apos;index.cfm&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="rtf/index.cfm" name="index.html" stamp="1413407405756" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;rtf/wwwroot/rtf/js_sample&apos; to &apos;js_sample.js&apos;" description="Rename resource &apos;js_sample&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="wwwroot/rtf/js_sample" name="js_sample.js" stamp="1413413486970" updateReferences="true"/>
-</session>
