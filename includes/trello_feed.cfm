@@ -1,16 +1,46 @@
+<cfset apiQualifier="boards/y8XWCtp7/cards">
+<cfset sUrl=#application.trello["apiURL"]# & #apiQualifier# >
 
-<cfhttp url="https://api.trello.com/1/boards/y8XWCtp7" method="get">
-	<cfhttpparam name="key" 			type="URL"	 	value="f4f9f26d29e5d54bad8b04933669645f">
-   	<cfhttpparam name="token" 			type="URL" 		value="cc9b63fc41bc0921c6bdc612f0322556332e765284d1e854762201e0a63f6b75">
-    <cfhttpparam name="lists"			type="URL"		value="open">
-    <cfhttpparam name="list_fields"		type="URL"		value="name">
-    <cfhttpparam name="fields"			type="URL"		value="name,desc">
+<cfhttp url=#sUrl# method="get">
+	<cfhttpparam name="key" 			type="URL"	 	value=#application.trello["sKey"]#>
+   	<cfhttpparam name="token" 			type="URL" 		value=#application.trello["sToken"]#>
+    <cfhttpparam name="filter"			type="URL"		value="open">
+    <cfhttpparam name="fields"			type="URL"		value="name,desc,due">
 </cfhttp>
 
 <cfset trelloData =	DeserializeJSON(cfhttp.FileContent)>
-
-<cfdump var="#trelloData#">
-
 <cfoutput>
-
+<!--- <cfdump var=#trelloData#> --->
+    <ul>
+    	<cfloop index="card" array=#trelloData#>
+			<li>
+                <div class="cardName">
+	                #HTMLEditFormat(card.name)#
+                    <cfif card.due NEQ "null">
+                    	<div class="cardDue">
+							Planned Completion: #cleanUpTrelloDate(card.due)#
+                        </div>
+					</cfif>
+                </div>
+                <div class="cardDesc">
+    	            #HTMLEditFormat(card.desc)#
+                </div>
+            </li>
+	    </cfloop>
+    </ul>
 </cfoutput>
+
+<cfscript>
+	/*cleanup a trello date [2015-07-31T19:00:00.000Z] to just the year-month-day string*/
+	private String function cleanUpTrelloDate(String TrelloDate)
+	{
+		revDate = "";
+		if(Len(TrelloDate) >= 10){
+			revDate = Left(TrelloDate,10);
+		}
+		else{
+		revDate = TrelloDate;
+		}
+		return DateFormat(revDate,"full");
+	}
+</cfscript>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -59,6 +58,25 @@
 		width: auto; 
 
 		max-height: 150px;
+	}
+	
+	.cardName {
+		 font-size:large;
+		 font-family:Arial;
+		 padding-top:10px;
+	}
+	
+	.cardDesc{
+		font-size:medium;
+		font-family:sans-serif;
+		padding-left:10px;
+	}
+	
+	.cardDue{
+		font-size:small;
+		font-style:italic;
+		color:red;
+		padding-left:10px;
 	}
 	
 </style>
@@ -144,7 +162,6 @@ $(function() {
 </ul>
 <!---Content Well 1--->
 <div class="boxDiv">
-	Content Well 1
 	<div class="smBoxDiv">
 	  	<h2>Latest Tech Reports</h2>
   		<cfinclude template="/includes/tr_feed.cfm">
@@ -152,7 +169,7 @@ $(function() {
 </div>
 <!---Content Well 2--->
 <div class="boxDiv" style="width:40%;">
-	Content Well 2
+	Network Status by Branch
 	<div class="smBoxDiv">
 		<a href="http://dude-image.sno-isle.org/ALL.png" target="_blank">
         	<img src="http://dude-image.sno-isle.org/ALL.png" style="width:100%;" alt="Network Status" />
@@ -161,9 +178,8 @@ $(function() {
 </div>
 <!---Content Well 3--->
 <div class="boxDiv">
-	Show Case
 	<div class="smBoxDiv">
-  		<h2># of cards in Trello Lists</h2>
+  		<h2>Current IT Projects/Tasks</h2>
 	  	<cfinclude template="/includes/trello_feed.cfm">
 	</div>
 </div>
