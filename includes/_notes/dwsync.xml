@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="forum_feed.cfm" server="//redhat1.sno-isle.org/tech/" local="130746306070000000" remote="130746306070000000" Dst="2" />
-<file name="tr_feed.cfm" server="//redhat1.sno-isle.org/tech/" local="130825809463645822" remote="130825809460000000" Dst="2" />
-<file name="trello_feed.cfm" server="//redhat1.sno-isle.org/tech/" local="130826689437235175" remote="130826689430000000" Dst="2" />
 <file name="vehicle_feed.cfm" server="//redhat1.sno-isle.org/tech/" local="130700633020000000" remote="130700633020000000" Dst="2" />
+<file name="tr_feed.cfm" server="//redhat1.sno-isle.org/tech/" local="130825809463645822" remote="130825809460000000" Dst="2" />
 </dwsync>

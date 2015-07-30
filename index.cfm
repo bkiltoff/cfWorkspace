@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>IT Dashboard</title>
-<script src="/scripts/jquery-1.9.1.min.js"></script>
-<script src="/scripts/jquery.li-scroller.1.0.js"></script>
-<script src="/scripts/api.js"></script>
-<link type="text/css" rel="stylesheet" href="/stylesheet/li-scroller.css">
-</head>
-
-<body>
-
-
 <style type="text/css">
 	.techdefault {
 		margin-top:10px;
@@ -24,7 +10,7 @@
 	}
 	/*css for the three content wells*/
 	.boxDiv {
-		width:30%;		height:600px;
+		width:30%;		height:auto;
 		float:left;
 		overflow:hidden;
 		box-sizing:border-box;
@@ -58,25 +44,6 @@
 		width: auto; 
 
 		max-height: 150px;
-	}
-	
-	.cardName {
-		 font-size:large;
-		 font-family:Arial;
-		 padding-top:10px;
-	}
-	
-	.cardDesc{
-		font-size:medium;
-		font-family:sans-serif;
-		padding-left:10px;
-	}
-	
-	.cardDue{
-		font-size:small;
-		font-style:italic;
-		color:red;
-		padding-left:10px;
 	}
 	
 </style>
@@ -125,13 +92,15 @@ $(function() {
 		}
 	});
 
-  $("ul#ticker01").liScroll({travelocity: .05});
+	$("ul#ticker01").liScroll({travelocity: .05});
 
 });
 </script>
+</head>
 
+<body>
 
-<!---Links/Icons--->
+ <!---Links/Icons--->
 <div class="bannerLinks">
 	<a href="https://intranet.sno-isle.org"	target="_blank"	style="text-decoration:none;">
 	    <div class="bannerLink">
@@ -179,9 +148,9 @@ $(function() {
 <!---Content Well 3--->
 <div class="boxDiv">
 	<div class="smBoxDiv">
-  		<h2>Current IT Projects/Tasks</h2>
-	  	<cfinclude template="/includes/trello_feed.cfm">
+	  	<cfinclude template="/includes/trello/">
 	</div>
 </div>
+
+
 </body>
-</html>
